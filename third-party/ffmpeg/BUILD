@@ -1,6 +1,6 @@
 config_setting(
     name = "darwin",
-    constraint_values = ["@bazel_tools//platforms:osx"],
+    constraint_values = ["@platforms//os:macos"],
 )
 
 filegroup(
